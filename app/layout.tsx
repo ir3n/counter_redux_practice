@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Counter working with Redux",
   description:
-    "I created this page while practicing Redux, while using TypeScript & Tailwind CSS in my Next.js project.",
+    "I created this page to practice Redux in a Next.js project that uses TypeScript and Tailwind CSS.",
 };
 
 export default function RootLayout({
@@ -38,8 +38,8 @@ export default function RootLayout({
         </main>
         <footer>
           <p className="my-5 lg:my-10 text-center text-slate-400">
-            I created this page while practicing Redux, while using TypeScript &
-            Tailwind CSS in my Next.js project.
+            I created this page to practice Redux in a Next.js project that uses
+            TypeScript and Tailwind CSS.
           </p>
           <p className="text-xs text-slate-400 text-center mt-5">{`©${new Date().getFullYear()} Irene Borada`}</p>
         </footer>
