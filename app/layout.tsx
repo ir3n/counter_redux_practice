@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${inter.className} flex min-h-screen flex-col py-5 lg:py-10 px-5 md:px-24`}
+        className={`${inter.className} flex min-h-screen flex-col py-5 lg:py-10 px-5 md:px-24 justify-between`}
       >
         <header className="mb-12 w-full">
           <a href="https://www.ireneborada.com/">
@@ -35,7 +35,7 @@ export default function RootLayout({
         <main>
           <ReduxWrapper>{children}</ReduxWrapper>
         </main>
-        <footer className="mt-auto">
+        <footer>
           <p className="my-5 lg:my-10 text-center text-slate-400">
             I created this page while practicing Redux, while using TypeScript &
             Tailwind CSS in my Next.js project.
