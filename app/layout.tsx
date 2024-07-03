@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
+import ReduxWrapper from "@/components/ReduxWrapper";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,7 +32,9 @@ export default function RootLayout({
             />
           </a>
         </header>
-        <main>{children}</main>
+        <main>
+          <ReduxWrapper>{children}</ReduxWrapper>
+        </main>
         <footer className="mt-auto">
           <p className="my-5 lg:my-10 text-center text-slate-400">
             I created this page while practicing Redux, while using TypeScript &
