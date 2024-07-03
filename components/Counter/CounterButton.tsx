@@ -6,7 +6,7 @@ function CounterButton({ action, fn }) {
   return (
     <button
       onClick={fn}
-      className="w-12 h-12 md:w-16 md:h-16 bg-indigo-500 rounded-xl text-white flex items-center justify-center text-4xl cursor-pointer"
+      className="w-12 h-12 md:w-16 md:h-16 bg-redux rounded-xl text-white flex items-center justify-center text-4xl cursor-pointer"
     >
       <span className="pointer-events-none">
         {action === "plus" ? "+" : "-"}
