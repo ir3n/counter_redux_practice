@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
-import ReduxWrapper from "@/components/ReduxWrapper";
+import ReduxWrapper from "@/store/ReduxWrapper";
 
 const inter = Inter({ subsets: ["latin"] });
 
